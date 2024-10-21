@@ -1,0 +1,30 @@
+{
+  "recommendations": [
+    // Development Environment
+    "eamodio.gitlens",
+    "mikestead.dotenv",
+    "ms-vscode-remote.vscode-remote-extensionpack",
+
+    // Code Quality
+    "dbaeumer.vscode-eslint",
+    "denoland.vscode-deno",
+
+    // Internationalization
+    "lokalise.i18n-ally",
+
+    // Tailwind CSS
+    "bradlc.vscode-tailwindcss",
+    "heybourn.headwind",
+
+    // Docker
+    "ms-azuretools.vscode-docker",
+
+    // Productivity
+    "formulahendry.auto-rename-tag",
+    "gruntfuggly.todo-tree",
+    "kisstkondoros.vscode-gutter-preview",
+    "vivaxy.vscode-conventional-commits",
+    "wix.vscode-import-cost",
+    "yoavbls.pretty-ts-errors"
+  ]
+}
