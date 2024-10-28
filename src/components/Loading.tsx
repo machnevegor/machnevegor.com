@@ -1,10 +1,6 @@
 export function Loading(props: React.ComponentProps<"svg">) {
   return (
-    <svg
-      viewBox="0 0 704 640"
-      xmlns="http://www.w3.org/2000/svg"
-      {...props}
-    >
+    <svg viewBox="0 0 704 640" xmlns="http://www.w3.org/2000/svg" {...props}>
       {/* Grid */}
       <path
         className="animate-pulse"
