@@ -29,11 +29,6 @@
         "reservedFirst": true
       }
     ],
-    "prettier/prettier": [
-      "error",
-      {
-        "proseWrap": "always"
-      }
-    ]
+    "prettier/prettier": ["error"]
   }
 }
