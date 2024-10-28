@@ -1,3 +1,23 @@
 {
-  "editor.defaultFormatter": "denoland.vscode-deno"
+  // Linting / Formatting
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+
+  // Productivity
+  "todo-tree.general.rootFolder": "src",
+  "todo-tree.general.tags": [
+    "BUG",
+    "HACK",
+    "FIXME",
+    "TODO",
+    "XXX",
+    "[ ]",
+    "[x]",
+    "TODO-APP"
+  ]
 }
