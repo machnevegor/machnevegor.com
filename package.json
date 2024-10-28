@@ -6,14 +6,15 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint src",
-    "lint:fix": "next lint src --fix",
-    "fmt": "prettier src --check",
-    "fmt:fix": "prettier src --write"
+    "lint": "next lint",
+    "lint:fix": "next lint --fix",
+    "fmt": "prettier \"src/**/*.{ts,tsx}\" --check --cache",
+    "fmt:fix": "prettier \"src/**/*.{ts,tsx}\" --write --cache"
   },
   "dependencies": {
     "@headlessui/react": "^2.1.10",
     "@heroicons/react": "^2.1.5",
+    "clsx": "^2.1.1",
     "lottie-react": "^2.4.0",
     "next": "14.2.15",
     "react": "^18",
