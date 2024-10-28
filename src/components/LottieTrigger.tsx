@@ -7,7 +7,9 @@ import type { LottieOptions, LottieRef } from "lottie-react";
 
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
-export function LottieTrigger(props: Omit<LottieOptions, "lottieRef">) {
+export function LottieTrigger(
+  props: Omit<LottieOptions, "lottieRef" | "onClick">,
+) {
   const lottieRef: LottieRef = useRef(null);
 
   const playAnimation = () => {
