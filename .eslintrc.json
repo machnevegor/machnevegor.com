@@ -1,5 +1,6 @@
 {
-  "extends": ["next/core-web-vitals", "next/typescript"],
+  "extends": ["next/core-web-vitals", "next/typescript", "prettier"],
+  "plugins": ["prettier"],
   "rules": {
     "import/order": [
       "error",
@@ -26,6 +27,12 @@
         "shorthandFirst": true,
         "noSortAlphabetically": false,
         "reservedFirst": true
+      }
+    ],
+    "prettier/prettier": [
+      "error",
+      {
+        "proseWrap": "always"
       }
     ]
   }
